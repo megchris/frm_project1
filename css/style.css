@@ -575,6 +575,10 @@ button {
       height: 30px;
       width: 40px;
     }
+
+  }
+  @media screen and (max-width: 382px){
+
   }
   @media screen and (max-width: 322px) {
     #mobile_img {
@@ -585,7 +589,6 @@ button {
       position: absolute;
       top: 420px;
       left: -39px;
-      width: 290px;
     }
     .container p {
       font-size: 17px;
@@ -596,7 +599,6 @@ button {
       width: 310px;
     }
     .logos {
-      width: 320px;
     }
 
     button {
@@ -621,11 +623,13 @@ button {
       top: 400px;
       left: -46px;
       width: 250px;
+      text-align: center;
     }
     .container h1 {
       font-size: 30px;
     }
     .container p {
+      
       width: 250px;
       font-size: 16px;
     }
